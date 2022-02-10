@@ -17,11 +17,11 @@ body{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         "jeremy work play study"
-        "options exercise social selfCare"
+        "jeremy exercise social selfCare"
         ;
+        grid-gap: 20px;
         width: 75%;
         height: 50vh;
-        background-color: blue;
 
     }
 }

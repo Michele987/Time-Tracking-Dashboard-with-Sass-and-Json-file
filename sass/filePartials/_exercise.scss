@@ -1,4 +1,16 @@
 #exercise{
     grid-area: exercise;
-    background-color: hotpink;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+    #imageExercise{
+        width: 100%;
+        height: 7vh;
+        background-image: url(/images/icon-exercise.svg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        border-radius: 10px;
+        background-color: hsl(145, 58%, 55%);
+
+    }
 }

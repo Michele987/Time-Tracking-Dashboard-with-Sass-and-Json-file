@@ -1,4 +1,16 @@
 #selfCare{
     grid-area: selfCare;
-    background-color: firebrick;
+    border-radius: 10px;
+    background-color: hsl(235, 46%, 20%);
+
+    #imageSelfcare{
+        width: 100%;
+        height: 7vh;
+        background-image: url(/images/icon-self-care.svg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        border-radius: 10px;
+        background-color: hsl(43, 84%, 65%);
+
+    }
 }

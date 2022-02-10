@@ -1,4 +1,28 @@
 #jeremy{
+    position: relative;
     grid-area: jeremy;
-    background-color: purple;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+
+    #boxImage{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    #options{
+        width: 100%;
+        background-color: hsl(235, 46%, 20%);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 5px;
+
+        ul{
+            list-style-type: none;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
 }
