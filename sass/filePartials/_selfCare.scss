@@ -13,4 +13,34 @@
         background-color: hsl(43, 84%, 65%);
 
     }
+
+    .hobby{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+
+        .select{
+            display: flex;
+
+            #bar1,#bar2,#bar3{
+                margin: 1px;
+                width: 6px;
+                height: 1vh;
+                border-radius: 50%;
+                background-color: white;
+
+            }
+
+        }
+
+        
+    }
+
+    #data1{
+        display: flex;
+    }
+
+    #data2{
+        display: flex;
+    }
 }
