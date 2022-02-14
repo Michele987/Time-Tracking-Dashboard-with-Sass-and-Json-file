@@ -19,8 +19,14 @@
         justify-content: space-around;
         margin-top: 15px;
 
+        p{
+            font-family: 'Rubik', sans-serif;
+            color: white;
+        }
+
         .select{
             display: flex;
+            cursor: pointer;
 
             #bar1,#bar2,#bar3{
                 margin: 1px;
@@ -38,9 +44,21 @@
 
     #data1{
         display: flex;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.3em;
+        margin-left: 49px;
+        margin-top: 17px;
+
     }
 
     #data2{
         display: flex;
+        color: rgb(161, 160, 160);
+        font-family: 'Rubik', sans-serif;
+        margin-left: 49px;
+        margin-top: 15px;
+        padding-bottom: 20px;
+
     }
 }
