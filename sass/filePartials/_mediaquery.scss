@@ -1,0 +1,63 @@
+@media screen and (max-width:767px){
+    body{
+        section{
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "jeremy"
+            "work"
+            "play"
+            "study"
+            "exercise"
+            "social"
+            "selfCare"
+            ;
+
+            #jeremy{
+                position: relative;
+
+                p{
+                    position: absolute;
+                    top: 90%;
+                    right: 50%;
+                }
+        
+                h3{
+                    position: absolute;
+                    top: 50%;
+                    right: 30%;
+                }
+            }
+
+           
+    
+            #options{
+                
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+        }
+
+        
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    body{
+        section{
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: 
+            "jeremy jeremy jeremy"
+            "work play study"
+            "exercise social selfCare"
+            
+            ;
+        }
+    }
+
+}
+
